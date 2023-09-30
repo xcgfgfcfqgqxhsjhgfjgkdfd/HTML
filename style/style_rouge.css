@@ -1,25 +1,25 @@
 title {
-	color: #0944A0;
+	color: #811A1E ;
 }
 
 h1 {
-	margin-left: 7px;
-	color: #13417C;
-	font-size: 30px;
+	margin-left: 20px;
+	color: #811A1E;
+	font-size: 30;
 	font-family: "Arial";
 	font-style: "bold";
 }
 
 h2, h3 {
-	margin-left: 5px;
-	color: #0944A0;
+	margin-left: 10px;
+	color: #8B0000;
 	font-size: 20;
 	font-family: "Arial";
 	font-style: "bold";
 }
 
 li, a, ol, ul, p {
-	margin-left: 5px;
+	margin-left: 10px;
 	color: black;
 	font-style: 12;
 	font-family: "Arial";
@@ -34,13 +34,11 @@ footer {
 }
 
 body {
-	background-color: #D6870D;
+	background-color: #EE0000;
 }
 
 img {
 	display: inline-flex;
-	border-width: 5px;
-	border-color: #E67B09;
-	border: 5px #E67B09 solid;
+	border: 5px #FE2630 solid;
 	border-radius: 15px;
 }
