@@ -1,19 +1,19 @@
 title {
-	color: #1618B3 ;
+	color: #0944A0;
 }
 
 h1 {
-	margin-left: 10px;
-	color: #13417C ;
-	font-size: 20;
+	margin-left: 7px;
+	color: #13417C;
+	font-size: 30px;
 	font-family: "Arial";
 	font-style: "bold";
 }
 
 h2, h3 {
 	margin-left: 5px;
-	color: #1618B3 ;
-	font-size: 16;
+	color: #0944A0;
+	font-size: 20;
 	font-family: "Arial";
 	font-style: "bold";
 }
@@ -34,12 +34,23 @@ footer {
 }
 
 body {
-	background-color: #D12362;
+	background-color: #D6870D;
 }
 
 img {
 	display: inline-flex;
 	border-width: 5px;
-	border: 5px #C70813 solid;
+	border-color: #E67B09;
+	border: 5px #E67B09 solid;
 	border-radius: 15px;
+}
+
+.truc {
+	grid-template-columns: 250px 250px 250px ;
+   	grid-template-rows: 500px;
+}
+
+.t {
+	display: inline-grid;
+	margin: 25px;
 }

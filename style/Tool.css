@@ -1,0 +1,38 @@
+h1 {
+  font-size: 18;
+  font-family: "Arial";
+  font-style: "bold";
+}
+
+h2 {
+  font-size: 16;
+  font-family: "Arial";
+  font-style: "bold";
+}
+
+h3 {
+  font-size: 14;
+  font-family: "Arial";
+  font-style: "bold";
+}
+
+body {
+  font-family: "Arial";
+  font-size: 14;
+  background-color: lightblue;
+  padding-left: 10px;
+}
+
+footer {
+  background-color : aquamarine;
+}
+
+.img {
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 300px;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+}
