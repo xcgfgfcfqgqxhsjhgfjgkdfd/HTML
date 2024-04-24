@@ -1,0 +1,64 @@
+<HTML>
+<head>
+<script>
+  
+
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>
+</head>
+
+<title> Berry </Title>
+<link href="style\style_bleu.css" rel="stylesheet">
+<body>
+<h1><b><font size=14> Raspberry try-cake </font></b></h1>
+<br></br>
+<p><h2>Pour le gâteau</h2></p>
+<ul>
+	<li> Pour 1 volume d'aquafaba réduite : </li>
+<li>1/8 de beurre mou</li>
+<li>1/3 de sucre</li>
+<li>1 de farine</li>
+<li>1/3 de framboises/confiture</li>
+</ul>
+<h3> Préparation </h3>
+<ol>
+<li> Préchauffer le four à 180°C. </li>
+<li> Ecraser les framboises à la cuillère.</li>
+<li>Placer l'aquafaba, le beurre mou, le sucre, les framboises et la farine dans un saladier, et mélanger.</li> 
+<li>Verser ensuite la pâte ainsi obtenue dans un moule. </li>
+<li>Cuire 20 - 25 minutes à 180°C.</li>
+</ol>
+
+
+<img src="images\berry.jpg" style="max-width:70%;height:auto;">
+
+<p><button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button></p>
+
+<p id="demo"></p>
+
+<br></br>
+
+
+<p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+<p>Click the button to see the counter increase.</p>
+<p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
+
+<script>
+  alert(100% empirique);
+</script>
+
+</Body>
+<footer> <b >Noé NGUYEN </b> - 2023 - <i>Try</i><a href="index.html"> Index </a></footer>
+</HTML>
